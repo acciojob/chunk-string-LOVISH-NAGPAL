@@ -1,4 +1,5 @@
 function stringChop(str, size) {
+	if (!str) return [];
 let arr=[]
 	let str1=""
 	
